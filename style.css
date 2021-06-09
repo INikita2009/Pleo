@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+}
+.bb{
+	background-image: url(image/men.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.filter{
+	height: 95vh;
+	background-color: #00000099;
+	padding-top: 5vh;
+	padding-left: 5vh;
+}
+.pleo{
+	width: 200px;
+	height: 130px;
+	border-radius: 50%;
+	background-color: orange;
+	padding-top: 70px;
+	font-size: 50px;
+	color: white;
+}
+.good{
+	height: 200px;
+	color: white;
+	font-size: 100px;
+	margin-top: 50px;
+}
+.panel{
+	height: 150px;
+	margin-top: 100px;
+}
+.bt{
+	width: 300px;
+	height: 100px;
+	background-color: #232323;
+	float: left;
+	color: #868080;
+	font-size: 40px;
+	padding-top: 50px; 
+	transition: color 0.3s ease,
+				border-top 0.1s ease;
+	
+}
+.bt:hover{
+	color: white;
+	border-top: 2px solid orange;
+}
+@media all and (max-width: 1865px){
+	.b1{
+		clear: both;
+	}	
+}
+@media all and (max-width: 1020px){
+	.b2{
+		clear: both;
+	}
+	.b3{
+		clear: both;
+	}
+	.b1{
+		clear: none;
+	}
+}
+@media all and (max-width: 730px){
+	.good{
+		font-size: 50px;
+		height: 50px;
+	}
+	.bt{
+		width: 250px;
+		height: 70px;
+		clear: both;
+	}
+}
+
+
+
+
+
+
+
+
